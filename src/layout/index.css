@@ -1,0 +1,39 @@
+#my-header{
+  width:100%;
+  height:60px;
+  position: relative;
+  line-height: 60px;
+}
+.fix-header{
+  position: fixed;
+  top:0;
+  left:0;
+  background: var(--headerColor);
+  height:60px;
+  width:100%;
+}
+.header-logo{
+  width:48px;
+  height:48px;
+  margin-left:20px;
+  vertical-align: middle;
+}
+#sidebar{
+  width:120px;
+  height:100%;
+  position: relative;
+}
+.sidebar-box{
+  position: fixed;
+  top:60px;
+  left:0;
+  width:180px;
+  height:100%;
+  background: #fff;
+  border:1px solid var(--borderColor);
+}
+.header-txt{
+  font-size: 16px;
+  color:#fff;
+  padding-left:15px;
+}
