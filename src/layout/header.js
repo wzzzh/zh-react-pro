@@ -8,7 +8,7 @@ class Header extends React.Component{
       <div id="my-header">
         <div className="fix-header">
           <img src={require('../static/img/xxx-zhuanye.png')} alt="" className="header-logo"/>
-          <span className="header-txt">zh-react-project</span>
+          <span className="header-txt">zh-react-project1</span>
         </div>
       </div>
     )
